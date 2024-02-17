@@ -11,7 +11,7 @@ async function main() {
 
     await page.evaluate(() => {
       const elem = document.getElementsByClassName("number-memory-test")[0];
-      let lastNum = "0";
+      let lastNum = "";
       let sent = true;
       const callback = () => {
         const num_elems = elem.getElementsByClassName("big-number");
