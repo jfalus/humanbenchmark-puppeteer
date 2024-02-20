@@ -49,7 +49,7 @@ async function main() {
   } catch (e) {
     console.log(e);
   } finally {
-    await browser.close();
+    // await browser.close(); // If not commented, program will exit after clicking start
   }
 }
 
